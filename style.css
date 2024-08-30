@@ -1,0 +1,84 @@
+* {
+  list-style: none;
+}
+
+body {
+  font: 16px/28px arial, sans-serif;
+  background-color: rgb(255, 85, 42);
+  color: #333;
+}
+
+.container {
+  width: 800px;
+  margin: auto;
+  background-color: rgb(255, 255, 255);
+}
+
+.header {
+  padding: 20px;
+}
+
+.header .judul {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.header ul li {
+  display: inline-block;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+.header ul {
+  margin-left: -40px;
+}
+
+.header a {
+  text-decoration: none;
+  color: salmon;
+  padding: 3px;
+}
+
+.header a:hover {
+  background-color: lightskyblue;
+}
+
+.hero {
+  height: 400px;
+  background-image: url(https://images.unsplash.com/photo-1519340241574-2cec6aef0c01?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+  background-position: 0 -30px;
+  border-top: 5px solid salmon;
+  border-bottom: 5px solid lightskyblue;
+}
+
+.content {
+  padding: 20px;
+}
+.content h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.content .penulis {
+  font-size: 12px;
+  margin-top: -20px;
+}
+.content .penulis a {
+  color: salmon;
+  text-decoration: none;
+}
+
+.content p {
+  margin-bottom: 20px;
+}
+
+.footer {
+  background-color: #333;
+}
+
+.footer .copy {
+  color: #eaeaea;
+  text-align: center;
+  font-size: 12px;
+  padding: 10px;
+}
